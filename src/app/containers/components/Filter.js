@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Filter Presentaional Component
+// Filter Presentational Component
 export const Filter = ({ active, children, onFliterClick }) => {
   const handleClick = (e) => {
     e.preventDefault();
